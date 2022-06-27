@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer for gddddns.service
+Requires=gdddns.service
+
+[Timer]
+Unit=gdddns.service
+OnCalendar=*:0/10
+
+[Install]
+WantedBy=timers.target
