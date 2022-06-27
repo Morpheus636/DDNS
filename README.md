@@ -1,5 +1,5 @@
 # GDDDNS
-Simple Dynamic-DNS for use with GoDaddy DDNS using BASH and Systemd Services.
+Simple Dynamic-DNS for use with GoDaddy DNS using BASH and Systemd Services.
 
 ## Usage
 ### Installing
