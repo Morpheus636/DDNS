@@ -1,6 +1,8 @@
 # GDDDNS
 Simple Dynamic-DNS for use with GoDaddy DNS using BASH and Systemd Services.
 
+This tool is developed for my use but published so others can benefit. Pull requests will be closed without merging.
+
 ## Usage
 ### Installing
 1. Create an A record for your subdomain.
