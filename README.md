@@ -1,7 +1,13 @@
 # GDDDNS
 Simple Dynamic-DNS for use with GoDaddy DNS using BASH and Systemd Services.
 
-This tool is developed for my use but published so others can benefit. Pull requests will be closed without merging.
+## Features
+- Simple install script
+- Easy to configure
+
+## Technologies
+- BASH
+- Systemd
 
 ## Usage
 ### Installing
@@ -18,6 +24,9 @@ This tool is developed for my use but published so others can benefit. Pull requ
 1. Run `chmod +x uninstall.sh`
 2. Run `sudo uninstall.sh`
 
+## Contributing
+This project is unmaintained, developed for my personal use and released for the benefit of anyone interested. Issues may not be addressed and pull
+requests will likely be closed without merging.
+
 ## Credits
 Credit to Tod-SoS from [Instructables](https://instructables.com/Quick-and-Dirty-Dynamic-DNS-UsingGoDaddy/) for the base script which I modified and expanded.
-
