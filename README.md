@@ -24,9 +24,15 @@ Simple Dynamic-DNS for use with GoDaddy DNS using BASH and Systemd Services.
 1. Run `chmod +x uninstall.sh`
 2. Run `sudo uninstall.sh`
 
+
+## Contact
+<Remove this section for unmaintained projects>
+To submit a bug report or feature request, please open a GitHub Issue in this repository. 
+
+To ask a question or get support, you can join my [Discord Server](https://discord.morpheus636.com) or create a Discussions thread within this repository.
+
 ## Contributing
-This project is unmaintained, developed for my personal use and released for the benefit of anyone interested. Issues may not be addressed and pull
-requests will likely be closed without merging.
+This project is maintained my Morpheus636. Contribution guidelines for all of my projects can be found at https://docs.morpheus636.com/contributing
 
 ## Credits
 Credit to Tod-SoS from [Instructables](https://instructables.com/Quick-and-Dirty-Dynamic-DNS-UsingGoDaddy/) for the base script which I modified and expanded.
