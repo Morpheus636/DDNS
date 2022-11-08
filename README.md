@@ -14,9 +14,10 @@ Simple Dynamic-DNS for use with Cloudflare DNS using BASH and Systemd Services. 
 1. Create an A record for your subdomain.
 2. Create a Cloudflare API Key
 3. Update `src/gdddns.sh` as follows:
-    1. In the quotes next to DOMAIN, put the domain (or subdomain) you want to update.
-    2. In the quotes next to CF_API_KEY, put your Cloudflare API key.
-    3. In the quotes next to CF_EMAIL, put the email associated with your Cloudflare account.
+    - In the quotes next to CF_API_KEY, put your Cloudflare API key.
+    - In the quotes next to CF_EMAIL, put the email associated with your Cloudflare account.
+    - In the quotes next to CF_ZONE_ID, put the zone identifier associated with the domain
+    - In the quotes next to CF_RECORD_ID, put the identifier associated with the record.
 
 ### Installing (via Install Script)
 1. Run `chmod +x install.sh`
