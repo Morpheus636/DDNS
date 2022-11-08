@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer for ddns.service
+Requires=ddns.service
+
+[Timer]
+Unit=ddns.service
+OnCalendar=*:0/10
+
+[Install]
+WantedBy=timers.target

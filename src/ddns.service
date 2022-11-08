@@ -1,0 +1,10 @@
+[Unit]
+Description=Simple Dynamic-DNS.
+Wants=ddns.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/ddns.sh
+
+[Install]
+WantedBy=multi-user.target
