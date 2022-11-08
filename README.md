@@ -1,5 +1,5 @@
 # DDNS
-Simple Dynamic-DNS for use with Cloudflare DNS using BASH and Systemd Services.
+Simple Dynamic-DNS for use with Cloudflare DNS using BASH and Systemd Services. Developed for use in my Homelab.
 
 ## Features
 - Simple install script
